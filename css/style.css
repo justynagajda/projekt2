@@ -117,3 +117,10 @@ header {
     font-size: 3rem;
     font-weight: bold;
 }
+
+/* ABOUTUS */
+
+.aboutus-hero {
+    background-image: url(../img/about/about-hero.jpg);
+    background-position: bottom;
+}
