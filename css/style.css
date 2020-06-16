@@ -90,3 +90,9 @@ header {
     background-size: cover;
     z-index: 0;
 }
+
+/* home-brand */
+.home-brand h3 {
+    font-size: 3rem;
+    font-weight: bold;
+}
