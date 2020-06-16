@@ -65,21 +65,28 @@ header {
 .carousel-img-three {
     background-image: url('../img/main-carousel3.jpg');
 }
-/*  
-@media (min-width:1400px) {
-    .carousel-item {
-        height: 600px;
-    }
 
-    .carousel-img-one {
-        background-image: url('../img/main-carousel-1-hq.jpg');
-    }
+/* HOME */
 
-    .carousel-img-two {
-        background-image: url('../img/main-carousel-2-hq.jpg');
-    }
+.home-boxes {
+    padding: 5rem 0;
+}
 
-    .carousel-img-three {
-        background-image: url('../img/main-carousel-3-hq.jpg');
-    }
+.home-box i {
+    font-size: 4rem;
+}
+
+.home-box h3 {
+    font-size: 2.6rem;
+}
+
+/* hero-shadow  */
+
+.home-passion {
+    position: relative;
+    height: 350px;
+    background-image: url(../img/home-passion.jpg);
+    background-position: center;
+    background-size: cover;
+    z-index: 0;
 }
