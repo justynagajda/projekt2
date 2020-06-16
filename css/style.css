@@ -38,3 +38,48 @@ nav {
     font-weight: bold;
     text-transform: none;
 }
+
+
+/* HEADER  */
+
+header {
+    font-size: 2rem;
+}
+
+.carousel-item {
+    position: relative;
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    z-index: 0;
+}
+
+.carousel-img-one {
+    background-image: url('../img/main-carousel1.jpg');
+}
+
+.carousel-img-two {
+    background-image: url('../img/main-carousel2.jpg');
+}
+
+.carousel-img-three {
+    background-image: url('../img/main-carousel3.jpg');
+}
+/*  
+@media (min-width:1400px) {
+    .carousel-item {
+        height: 600px;
+    }
+
+    .carousel-img-one {
+        background-image: url('../img/main-carousel-1-hq.jpg');
+    }
+
+    .carousel-img-two {
+        background-image: url('../img/main-carousel-2-hq.jpg');
+    }
+
+    .carousel-img-three {
+        background-image: url('../img/main-carousel-3-hq.jpg');
+    }
+}
