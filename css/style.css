@@ -124,3 +124,7 @@ header {
     background-image: url(../img/about/about-hero.jpg);
     background-position: bottom;
 }
+
+.aboutus-top .display-3 {
+    text-transform: uppercase;
+}
