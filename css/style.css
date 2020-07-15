@@ -128,3 +128,74 @@ header {
 .aboutus-top .display-3 {
     text-transform: uppercase;
 }
+
+.aboutus-info {
+    background-color: rgba(0,0,0,0.03);
+}
+
+.aboutus-info .container {
+    padding: 2em 0.5em;
+}
+
+.aboutus-text {
+    padding: 1.8em;
+}
+
+.aboutus-text h3 {
+    margin-bottom: 0.5em;
+    font-size: 2.6rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: underline #037BFE;
+}
+
+.aboutus-text-right { 
+    text-align: right;
+}
+
+.aboutus-img {
+    height: 300px;
+    background-image: url(../img/about/ferrari.jpg);
+    background-position: center;
+    object-fit: cover;
+}
+
+.aboutus-bottom i {
+    font-size: 3rem;
+}
+
+.aboutus-bottom h3 {
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+
+
+@media (min-width:992px) {
+    .aboutus-info .container {
+      padding: 0;  
+    }
+
+    .aboutus-shadow {
+        box-shadow: inset 0 5px 10px -5px rgba(0, 0, 0, .4);
+        /* właściwość inset powoduje, ze cień rysuje sie do srodka elementu, nadaje efekt głębi */
+    }
+
+    .aboutus-text {
+        padding: 5em 0;
+        transform: skew(-15deg); /*transformacja skośna  */
+    }
+
+    .aboutus-text-left {
+        padding-right: 2em;
+        text-align: right;
+    }
+    .aboutus-text-right {
+        padding-left: 2em;
+        text-align: left;
+    }
+
+    .aboutus-img {
+        height: auto;
+        transform: skew(-15deg);
+    }
+}
