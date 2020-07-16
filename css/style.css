@@ -130,7 +130,7 @@ header {
 }
 
 .aboutus-info {
-    background-color: rgba(0,0,0,0.03);
+    background-color: rgba(0, 0, 0, 0.03);
 }
 
 .aboutus-info .container {
@@ -149,7 +149,7 @@ header {
     text-decoration: underline #037BFE;
 }
 
-.aboutus-text-right { 
+.aboutus-text-right {
     text-align: right;
 }
 
@@ -176,7 +176,7 @@ header {
 
 @media (min-width:992px) {
     .aboutus-info .container {
-      padding: 0;  
+        padding: 0;
     }
 
     .aboutus-shadow {
@@ -186,13 +186,15 @@ header {
 
     .aboutus-text {
         padding: 5em 0;
-        transform: skew(-15deg); /*transformacja skośna  */
+        transform: skew(-15deg);
+        /*transformacja skośna  */
     }
 
     .aboutus-text-left {
         padding-right: 2em;
         text-align: right;
     }
+
     .aboutus-text-right {
         padding-left: 2em;
         text-align: left;
@@ -202,4 +204,49 @@ header {
         height: auto;
         transform: skew(-15deg);
     }
+}
+
+.service-hero-box {
+    position: relative;
+    height: 300px;
+    background-size: cover;
+    z-index: 0;
+}
+
+.service-hero-box p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+.service-pricing .box-one {
+    background-image: url(../img/services/uslugi1.jpg);
+}
+
+.service-pricing .box-two {
+    background-image: url(../img/services/uslugi2.jpg);
+}
+
+.service-pricing .box-three {
+    background-image: url(../img/services/uslugi3.jpg);
+}
+
+.service-pricing .box-four {
+    background-image: url(../img/services/uslugi4.jpg);
+}
+
+.service-pricing .card-header {
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.service-pricing h3 {
+    font-weight: bold;
+}
+
+.service-pricing .btn {
+    font-size: 1.6rem;
+    text-transform: uppercase;
 }
