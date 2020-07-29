@@ -213,7 +213,7 @@ header {
     z-index: 0;
 }
 
-.service-hero-box p{
+.service-hero-box p {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -256,7 +256,8 @@ header {
     background-position: 0 40%;
 }
 
-.contact h2, .contact h3 {
+.contact h2,
+.contact h3 {
     text-transform: uppercase;
     font-weight: bold;
 }
@@ -269,7 +270,9 @@ header {
     font-size: 3rem;
 }
 
-.contact input, .contact select, .contact textarea {
+.contact input,
+.contact select,
+.contact textarea {
     font-size: 1.6rem;
 }
 
